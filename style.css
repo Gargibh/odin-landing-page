@@ -1,0 +1,202 @@
+.body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+/*Heading: Logo and important links*/
+
+.logo-header {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    background-color: rgb(138, 138, 138);
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9faf8;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    gap: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: #F9faf8;
+}
+
+
+/*Hero information*/
+
+.hero-info{
+    display: flex;
+    padding: 60px;
+    gap: 30px;
+    justify-content: center;
+    background-color: rgb(219, 219, 219);
+}
+
+.hero-info img {
+    height: 200px;
+    width: 300px;
+}
+
+.header-2{
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.info-button{
+    display: flex;
+    max-width: 500px;
+    flex-wrap: wrap;
+}
+
+.button-1 {
+    color: white;
+    display: flex;  
+    background-color: rgb(51, 50, 50);
+    align-items: center;
+    padding:6px 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+
+/*Facts about dumbphones with images*/
+
+.dumbphone-facts {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding:60px;
+    background-color:  #e5e7eb;
+}
+
+.header-3 {
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.facts{
+    display: flex;
+    gap: 20px;
+}
+
+.img-info {
+    display: flex;
+    width: 180px;
+    flex-wrap: wrap;
+}
+
+.img-info img {
+    height: 150px;
+    width: 150px;
+    border-radius: 25px;
+    border: 2px solid rgb(51, 50, 50);
+    margin-bottom: 6px;
+}
+
+.text {
+    display: flex;
+    color: rgb(51, 51, 51);
+    text-align: center;
+}
+
+
+
+/*Quote section*/
+
+.quote-info{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    padding: 60px;
+    background-color: rgb(219, 219, 219);
+}
+
+.quote-info-in {
+    display: flex;
+    width: 700px;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+
+.quote {
+    font-size: 25px;
+    text-align: center;
+    font-style:italic;
+    /*'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode',
+     Geneva, Verdana, sans-serif;*/
+}
+
+.quote-cr {
+    font-size: 15px;
+}
+
+
+
+/*Sign-up for an account section*/
+
+.signup-info-out {
+    background-color:  #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+.signup-info-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 30px 150px;
+    margin: 40px;
+    background-color: rgb(192, 192, 192);
+    border-radius: 10px;
+    border: 2px solid rgb(51, 50, 50);
+}
+
+.create-account {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    color: rgb(51, 51, 51);
+}
+
+.header-4 {
+    font-size: 18px;
+    font-weight:bold;
+}
+
+.button-2 {
+    color: rgb(51, 51, 51);
+    display: flex;
+    align-items: center;
+    padding:6px 15px;
+    border-radius: 10px;
+    border: 2px solid rgb(51, 50, 50);
+    background-color: rgb(192, 192, 192);
+    font-size: 15px;
+    font-weight: 800;
+}
+
+
+
+/*Footer*/
+
+#footer {
+    background-color:rgb(138, 138, 138);
+    color: #F9faf8;
+    text-align: center;
+   
+}
